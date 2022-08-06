@@ -3,9 +3,11 @@ int a = Convert.ToInt32(Console.ReadLine());
 
 if(a % 2 == 0)
 {
-    Console.WriteLine("True");
+    Console.WriteLine("Ответ: ");
+    Console.WriteLine("Введенное число является чётным");
 }
 else
 {
-    Console.WriteLine("False");
+    Console.WriteLine("Ответ: ");
+    Console.WriteLine("Введенное число является нечётным");
 }
